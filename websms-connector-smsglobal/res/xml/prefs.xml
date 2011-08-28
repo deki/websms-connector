@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:title="@string/settings_smsglobal">
+	<CheckBoxPreference android:key="enable_smsglobal"
+		android:title="@string/enable_smsglobal" />
+	<EditTextPreference android:key="user_smsglobal"
+		android:title="@string/username_" android:dialogTitle="@string/username_"
+		android:inputType="textEmailAddress" android:dependency="enable_smsglobal" />
+	<EditTextPreference android:key="password_smsglobal"
+		android:inputType="textPassword" android:title="@string/password_"
+		android:dialogTitle="@string/password_" android:dependency="enable_smsglobal" />
+</PreferenceScreen>

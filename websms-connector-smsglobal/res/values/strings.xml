@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">WebSMS Connector: smsglobal</string>
+	<string name="app_version">1.0.0</string>
+	<string name="connector_smsglobal_author">Dennis Kieselhorst &lt;mail@dekies.de&gt;</string>
+	<string name="connector_smsglobal_name">smsglobal</string>
+	<string name="enable_smsglobal">Enable smsglobal</string>
+	<string name="settings_smsglobal">Preferences - smsglobal</string>
+</resources>
